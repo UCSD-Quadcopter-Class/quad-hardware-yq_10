@@ -1,0 +1,18 @@
+The LED is selected based on the instruction in Lab4. The LED is selected from Digikey - discrete indication.
+
+The datasheet is available at
+https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C193TBKT-5A/160-1827-1-ND/2355044
+
+The datasheet is called LTST-C193TBKT-5A. 
+
+A few concerns were considered when we selected the LED. First is the forward voltage. The voltage must be lower than 3V. So this standard 
+filtered many out. Then, the mounting type was surface mount. Few less were left. More than that, we double checked that the price is 0.47
+dollars for 1 LED and it was available for just 1 unit. Also, by checking datasheet of both microcontroller and LED, the current was fine.
+Lastly, with the datasheet of the LED and the resistance calculation link provided on the course website, the resistance needed to pull up
+the voltage drop to 3V was calculated as 10 Ohms, which was added into the schematic.
+
+That is the basic design record for the LED we added into the schematic.
+
+Group 10
+
+4/19/2017
