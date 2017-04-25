@@ -1,0 +1,17 @@
+Meeting time: 12:00pm April 24th 2017 at Library Room 618
+
+SCHEM:
+1. No jumper present in the positive terminal of the battery
+2. No pull-up resistors are placed from SCL/SDA to VDDIO
+3. TX/RX pins are flipped on debug FTDI header (JP2)
+4. SDO_M is shorted to ground, but it should be shorted to VDDIO
+5. No custom LED circuit was created.
+6. Motor circuit is wired to the IMU/uC ground. It should be wired to BAT_GND
+7. The FLYBACK and FILTERED nodes on the motor circuit are all shorted together.
+   Give all of them unique names to prevent this problem.
+
+LBR:
+1. It's recommended to give the part oultine in TPlace. [This is an issue for
+   all designs]
+2. NMOS pads are fine, but power dissipation might become an issue. Make them
+   larger to give yourself some room.
