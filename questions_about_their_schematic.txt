@@ -1,0 +1,30 @@
+Meeting time: 12:00pm April 24th 2017 at Library Room 618
+
+Designer: Group 9
+
+Reviewer: Group 10
+
+LED library
+1. The size of pad is smaller than that suggested on the Page 8 in the datasheet.
+2. The font of >NAME and >VALUE is in proportional instead of vector in the LED package.
+3. R, G, B orientation signs in the package is placed in 49 tReference instead of 51 tDoc.
+
+Lab 2 library
+	
+	LED
+	1. The font of >NAME and >VALUE is in proportional instead of vector in the LED package.
+	
+	Resistor
+	1. The font of >NAME and >VALUE is in proportional instead of vector in the LED package.
+	
+	IMU
+	1. The first 'pad' is drawn by wire instead of pad (Fine).
+	2. The font of >NAME is in proportional instead of vector in the LED package.
+	
+	MOSFET
+	1. Pad 'D' is oversize (power dissipation).
+	2. The font of >NAME is in proportional instead of vector in the LED package.
+	3. Attribute in the device does not include 'value' item.
+	
+Schematic
+1. The location of jumper and net bridge is opposite. Jumper is on the negative terminal and the net bridge is on the positive bridge. 
