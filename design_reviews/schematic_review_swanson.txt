@@ -1,0 +1,17 @@
+Several important pins on your IMU are not connected.  Read the table in then IMU datasheet about which pins do what.
+
+missing pullups on SDA and SCL?
+
+you could leave off the 10Ohm resistors on your blue LEDs.  Those LEDs will work fine at 3V.
+
+you are missing the jumper between the positive battery terminal and VBAT. 
+
+ The input cap on the voltage regulator should be on BAT_GND
+
+GND symbols should always point down.
+
+Flyback and Filtered are connecte across all your motor drivers.
+
+filter cap in motor drivers should be 0.1uF instead of 1uF
+
+
