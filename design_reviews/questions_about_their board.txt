@@ -1,0 +1,45 @@
+Group 9 design review
+
+Reviewer: Group 10
+
+Antenna and Antenna Driver
+	All check points are satisfied.
+	
+Power and Ground
+	D8 is not above the VBAT power plane. There is a via near the motor driver.
+	The 3V power plane is under the IMU and there is a ground via under the IMU.
+	The VBAT power plane does not extend to the battery connector.
+	
+IMU
+	3V plane is under the IMU.
+	
+Headers
+	Headers are fine.
+	
+Microcontroller
+	C1 is a little bit far.
+
+Power Supply
+	Power supply looks fine.
+
+Motor Drivers
+	Yes, the traces are thick enough. 
+
+Aesthetics
+	The board look nice.
+
+Mechanical
+	The cup is too big for the motor. The diameter should be 8.5mm. 
+	It is roughly symmetric.
+	No large internal holes.
+Checks
+	I did not find the DRU file from Group 9 and I used my DRU. There are errors related to stop mask and air wires.
+	Eagle lint pass.
+	DFM shows missing soldermask clearance as the potential steppers.
+
+Gerber Files
+	Antenna area is clear.
+	Power planes are corresponding to the board layout.
+	There is a motor cup showed on top and bottom copper layer. I am not sure is that correct.
+	Outline is fine. 
+	The stoppers are mentioned in 'CHECKS'.
