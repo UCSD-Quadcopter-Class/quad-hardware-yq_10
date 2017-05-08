@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -727,7 +727,7 @@
 <attribute name="DISTPN" value="490-1666-1-ND"/>
 <attribute name="MFR" value="Murata Electronics North America"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L"/>
-<attribute name="REVIEWER" value=""/>
+<attribute name="REVIEWER" value="Group 9 "/>
 </technology>
 </technologies>
 </device>
@@ -751,7 +751,7 @@
 <attribute name="DISTPN" value="3M9447-ND"/>
 <attribute name="MFR" value="3M"/>
 <attribute name="MPN" value="961102-6404-AR"/>
-<attribute name="REVIEWER" value=""/>
+<attribute name="REVIEWER" value="Group 9"/>
 </technology>
 </technologies>
 </device>
@@ -775,7 +775,7 @@
 <attribute name="DISTPN" value="160-1178-1-ND" constant="no"/>
 <attribute name="MFR" value="Lite-On Inc" constant="no"/>
 <attribute name="MPN" value="LTST-C170EKT" constant="no"/>
-<attribute name="REVIEWER" value="" constant="no"/>
+<attribute name="REVIEWER" value="Group 9" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -798,7 +798,7 @@
 <attribute name="DISTPN" value="311-0.0ARCT-ND" constant="no"/>
 <attribute name="MFR" value="Yageo" constant="no"/>
 <attribute name="MPN" value="RC0805JR-070RL" constant="no"/>
-<attribute name="REVIEWER" value="" constant="no"/>
+<attribute name="REVIEWER" value="Group9" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -822,7 +822,7 @@
 <attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND" constant="no"/>
 <attribute name="MFR" value="Vishay Siliconix" constant="no"/>
 <attribute name="MPN" value="SI2302CDS-T1-E3" constant="no"/>
-<attribute name="REVIEWER" value="" constant="no"/>
+<attribute name="REVIEWER" value="Group 9" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -867,7 +867,7 @@
 <attribute name="DISTPN" value="497-14946-1-ND" constant="no"/>
 <attribute name="MFR" value="STMicroelectronics" constant="no"/>
 <attribute name="MPN" value="LSM9DS1TR" constant="no"/>
-<attribute name="REVIEWER" value="" constant="no"/>
+<attribute name="REVIEWER" value="Group 9" constant="no"/>
 </technology>
 </technologies>
 </device>
