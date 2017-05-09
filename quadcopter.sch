@@ -3770,30 +3770,30 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <library name="quadparts_yupei">
 <packages>
 <package name="9_AXIS_IMU">
-<smd name="15" x="1.975" y="-0.215" dx="1.4" dy="0.35" layer="1" stop="no"/>
-<smd name="14" x="1.975" y="-0.645" dx="1.4" dy="0.35" layer="1" stop="no"/>
-<smd name="16" x="1.975" y="0.215" dx="1.4" dy="0.35" layer="1" stop="no"/>
-<smd name="17" x="1.975" y="0.645" dx="1.4" dy="0.35" layer="1" stop="no"/>
-<smd name="2" x="-1.975" y="0.645" dx="1.4" dy="0.35" layer="1" stop="no"/>
-<smd name="3" x="-1.975" y="0.215" dx="1.4" dy="0.35" layer="1" stop="no"/>
-<smd name="4" x="-1.975" y="-0.215" dx="1.4" dy="0.35" layer="1" stop="no"/>
-<smd name="5" x="-1.975" y="-0.645" dx="1.4" dy="0.35" layer="1" stop="no"/>
-<smd name="6" x="-1.505" y="-1.725" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="13" x="1.505" y="-1.725" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="9" x="-0.215" y="-1.725" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="22" x="-0.215" y="1.725" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="10" x="0.215" y="-1.725" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="21" x="0.215" y="1.725" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="1" x="-1.505" y="1.725" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="18" x="1.515" y="1.725" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="24" x="-1.075" y="1.725" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="23" x="-0.645" y="1.725" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="20" x="0.645" y="1.725" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="19" x="1.075" y="1.725" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="11" x="0.645" y="-1.725" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="12" x="1.075" y="-1.725" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="8" x="-0.645" y="-1.725" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no"/>
-<smd name="7" x="-1.075" y="-1.725" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no"/>
+<smd name="15" x="1.975" y="-0.215" dx="1.4" dy="0.28" layer="1" stop="no"/>
+<smd name="14" x="1.975" y="-0.645" dx="1.4" dy="0.28" layer="1" stop="no"/>
+<smd name="16" x="1.975" y="0.215" dx="1.4" dy="0.28" layer="1" stop="no"/>
+<smd name="17" x="1.975" y="0.645" dx="1.4" dy="0.28" layer="1" stop="no"/>
+<smd name="2" x="-1.975" y="0.645" dx="1.4" dy="0.28" layer="1" stop="no"/>
+<smd name="3" x="-1.975" y="0.215" dx="1.4" dy="0.28" layer="1" stop="no"/>
+<smd name="4" x="-1.975" y="-0.215" dx="1.4" dy="0.28" layer="1" stop="no"/>
+<smd name="5" x="-1.975" y="-0.645" dx="1.4" dy="0.28" layer="1" stop="no"/>
+<smd name="6" x="-1.505" y="-1.725" dx="1.4" dy="0.28" layer="1" rot="R90" stop="no"/>
+<smd name="13" x="1.505" y="-1.725" dx="1.4" dy="0.28" layer="1" rot="R90" stop="no"/>
+<smd name="9" x="-0.215" y="-1.725" dx="1.4" dy="0.28" layer="1" rot="R90" stop="no"/>
+<smd name="22" x="-0.215" y="1.725" dx="1.4" dy="0.28" layer="1" rot="R90" stop="no"/>
+<smd name="10" x="0.215" y="-1.725" dx="1.4" dy="0.28" layer="1" rot="R90" stop="no"/>
+<smd name="21" x="0.215" y="1.725" dx="1.4" dy="0.28" layer="1" rot="R90" stop="no"/>
+<smd name="1" x="-1.505" y="1.725" dx="1.4" dy="0.28" layer="1" rot="R90" stop="no"/>
+<smd name="18" x="1.515" y="1.725" dx="1.4" dy="0.28" layer="1" rot="R90" stop="no"/>
+<smd name="24" x="-1.075" y="1.725" dx="1.4" dy="0.28" layer="1" rot="R90" stop="no"/>
+<smd name="23" x="-0.645" y="1.725" dx="1.4" dy="0.28" layer="1" rot="R90" stop="no"/>
+<smd name="20" x="0.645" y="1.725" dx="1.4" dy="0.28" layer="1" rot="R90" stop="no"/>
+<smd name="19" x="1.075" y="1.725" dx="1.4" dy="0.28" layer="1" rot="R90" stop="no"/>
+<smd name="11" x="0.645" y="-1.725" dx="1.4" dy="0.28" layer="1" rot="R90" stop="no"/>
+<smd name="12" x="1.075" y="-1.725" dx="1.4" dy="0.28" layer="1" rot="R90" stop="no"/>
+<smd name="8" x="-0.645" y="-1.725" dx="1.4" dy="0.28" layer="1" rot="R90" stop="no"/>
+<smd name="7" x="-1.075" y="-1.725" dx="1.4" dy="0.28" layer="1" rot="R90" stop="no"/>
 <rectangle x1="1.25" y1="0.44" x2="2.7" y2="0.84" layer="29"/>
 <rectangle x1="1.25" y1="0.01" x2="2.7" y2="0.41" layer="29"/>
 <rectangle x1="1.25" y1="-0.42" x2="2.7" y2="-0.02" layer="29"/>
