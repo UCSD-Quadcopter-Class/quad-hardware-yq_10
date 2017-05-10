@@ -1,0 +1,32 @@
+commit e36eecbbd4657844361a1fecd752abddb1ab2ab0
+
+you've got a bunch of traces in BAT_GND on the top metal.  
+
+GND should not be high_current net.  BAT_GND should be, though.
+
+You need separate pours for GND and BAT_GND.  Just like you have separate pours for VCC and VBAT
+
+C15 and C17 should be close to the balun and the wire to antenna.
+
+The trace from your jumuper to the positive batter terminal needs to be high_curren
+
+your oscillator layout needs to be much closer to the microcontroller and match what's on the red board more closely.
+
+More of your motor controller sould be laid out over the VBAT pour,  
+
+The decoupling caps for the microcontroller are pretty far from the imu and microcontroller.
+
+your arms a little short.  some of your propellers are going tobe over your board.
+
+You have no reset button.
+
+The package for your mosfet doesn't have large enough pads.  Check page 6 of the datasheet.
+
+Be sure to get the new .dru and .cam files and reroute your board.
+
+the PWM lines do not need to be highcurrent.
+
+
+
+
+
