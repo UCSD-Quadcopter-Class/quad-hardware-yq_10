@@ -1,4 +1,4 @@
-commit e36eecbbd4657844361a1fecd752abddb1ab2ab0
+commit 304934de03e3906552440a9aab299ecc939685ff
 
 you've got a bunch of traces in BAT_GND on the top metal.  
 
@@ -28,5 +28,8 @@ the PWM lines do not need to be highcurrent.
 
 
 
+commit 304934de03e3906552440a9aab299ecc939685ff
 
+commit a63838013bdd174cf69cc504e1deee48f37e744b
 
+The decoupling caps for the microcontroller are pretty far from the imu and microcontroller.
