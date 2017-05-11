@@ -2333,6 +2333,98 @@
 <smd name="A" x="1.045" y="0" dx="0.94" dy="0.99" layer="1" roundness="51" stop="no" cream="no"/>
 <smd name="C" x="-1.045" y="0" dx="0.94" dy="0.99" layer="1" roundness="51" rot="R180" stop="no" cream="no"/>
 </package>
+<package name="TE_FSM8JSMA_HS">
+<description>Switch, Tactile; 4 pin, 6.00 mm L X 6.00 mm W X 9.50 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<wire x1="-1.02" y1="3.06" x2="3.06" y2="3.06" width="0.12" layer="21"/>
+<wire x1="-1.61" y1="-3.56" x2="-1.61" y2="-5.54" width="0.12" layer="51"/>
+<wire x1="-1.61" y1="-5.54" x2="-2.89" y2="-5.54" width="0.12" layer="51"/>
+<wire x1="-1.61" y1="3.56" x2="-2.89" y2="3.56" width="0.12" layer="51"/>
+<wire x1="-1.61" y1="5.54" x2="-1.61" y2="3.56" width="0.12" layer="51"/>
+<wire x1="-1.73" y1="3" x2="3" y2="3" width="0.12" layer="51"/>
+<wire x1="-2.89" y1="-3.56" x2="-1.61" y2="-3.56" width="0.12" layer="51"/>
+<wire x1="-2.89" y1="-5.54" x2="-2.89" y2="-3.56" width="0.12" layer="51"/>
+<wire x1="-2.89" y1="3.56" x2="-2.89" y2="5.54" width="0.12" layer="51"/>
+<wire x1="-2.89" y1="5.54" x2="-1.61" y2="5.54" width="0.12" layer="51"/>
+<wire x1="-3" y1="-3" x2="-3" y2="1.73" width="0.12" layer="51"/>
+<wire x1="-3" y1="1.73" x2="-1.73" y2="3" width="0.12" layer="51"/>
+<wire x1="-3.06" y1="-3.06" x2="-3.06" y2="1.02" width="0.12" layer="21"/>
+<wire x1="-3.25" y1="-5.85" x2="-3.25" y2="5.85" width="0.05" layer="39"/>
+<wire x1="-3.25" y1="5.85" x2="3.25" y2="5.85" width="0.05" layer="39"/>
+<circle x="-3.55" y="4.5" radius="0.2" width="0.4" layer="21"/>
+<circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<circle x="0" y="0" radius="1.75" width="0.2" layer="21"/>
+<text x="0" y="0" size="2" layer="51" font="vector" ratio="10">&gt;NAME</text>
+<wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
+<polygon width="0.01" layer="31">
+<vertex x="-1.55" y="3.5"/>
+<vertex x="-2.95" y="3.5"/>
+<vertex x="-2.95" y="5.6"/>
+<vertex x="-1.55" y="5.6"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-1.55" y="-5.6"/>
+<vertex x="-2.95" y="-5.6"/>
+<vertex x="-2.95" y="-3.5"/>
+<vertex x="-1.55" y="-3.5"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="2.95" y="3.5"/>
+<vertex x="1.55" y="3.5"/>
+<vertex x="1.55" y="5.6"/>
+<vertex x="2.95" y="5.6"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="2.95" y="-5.6"/>
+<vertex x="1.55" y="-5.6"/>
+<vertex x="1.55" y="-3.5"/>
+<vertex x="2.95" y="-3.5"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-1.55" y="3.5"/>
+<vertex x="-2.95" y="3.5"/>
+<vertex x="-2.95" y="5.6"/>
+<vertex x="-1.55" y="5.6"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-1.55" y="-5.6"/>
+<vertex x="-2.95" y="-5.6"/>
+<vertex x="-2.95" y="-3.5"/>
+<vertex x="-1.55" y="-3.5"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="2.95" y="3.5"/>
+<vertex x="1.55" y="3.5"/>
+<vertex x="1.55" y="5.6"/>
+<vertex x="2.95" y="5.6"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="2.95" y="-5.6"/>
+<vertex x="1.55" y="-5.6"/>
+<vertex x="1.55" y="-3.5"/>
+<vertex x="2.95" y="-3.5"/>
+</polygon>
+<wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
+<wire x1="1.61" y1="-3.56" x2="2.89" y2="-3.56" width="0.12" layer="51"/>
+<wire x1="1.61" y1="-5.54" x2="1.61" y2="-3.56" width="0.12" layer="51"/>
+<wire x1="1.61" y1="3.56" x2="1.61" y2="5.54" width="0.12" layer="51"/>
+<wire x1="1.61" y1="5.54" x2="2.89" y2="5.54" width="0.12" layer="51"/>
+<wire x1="2.89" y1="-3.56" x2="2.89" y2="-5.54" width="0.12" layer="51"/>
+<wire x1="2.89" y1="-5.54" x2="1.61" y2="-5.54" width="0.12" layer="51"/>
+<wire x1="2.89" y1="3.56" x2="1.61" y2="3.56" width="0.12" layer="51"/>
+<wire x1="2.89" y1="5.54" x2="2.89" y2="3.56" width="0.12" layer="51"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.12" layer="51"/>
+<wire x1="3" y1="3" x2="3" y2="-3" width="0.12" layer="51"/>
+<wire x1="3.06" y1="-3.06" x2="-3.06" y2="-3.06" width="0.12" layer="21"/>
+<wire x1="3.06" y1="3.06" x2="3.06" y2="-3.06" width="0.12" layer="21"/>
+<wire x1="3.25" y1="-5.85" x2="-3.25" y2="-5.85" width="0.05" layer="39"/>
+<wire x1="3.25" y1="5.85" x2="3.25" y2="-5.85" width="0.05" layer="39"/>
+<smd name="1" x="-2.25" y="4.55" dx="1.4" dy="2.1" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-2.25" y="-4.55" dx="1.4" dy="2.1" layer="1" stop="no" cream="no"/>
+<smd name="3" x="2.25" y="4.55" dx="1.4" dy="2.1" layer="1" stop="no" cream="no"/>
+<smd name="4" x="2.25" y="-4.55" dx="1.4" dy="2.1" layer="1" stop="no" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESOLVED-CAPACITOR-NP_">
@@ -2626,6 +2718,24 @@
 <wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="C" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="RESOLVED-PUSHBUTTON-2PIN-NO-SHIELD_">
+<description>Generic 2 pin pushbutton</description>
+<wire x1="-1.905" y1="2.667" x2="-1.905" y2="1.397" width="0.254" layer="94"/>
+<circle x="-2.54" y="-2.54" radius="0.127" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="1.524" y2="-0.762" width="0.254" layer="94"/>
+<text x="-4.445" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-4.445" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="0" y1="-0.508" x2="0" y2="-1.143" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.762" x2="0" y2="0.127" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.667" x2="-1.905" y2="2.667" width="0.254" layer="94"/>
+<wire x1="0" y1="2.667" x2="0" y2="1.397" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="2.667" x2="0" y2="2.667" width="0.254" layer="94"/>
+<wire x1="1.905" y1="2.667" x2="1.905" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.54" x2="1.524" y2="-2.54" width="0.254" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.127" width="0.4064" layer="94"/>
+<pin name="1" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="2" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3475,22 +3585,71 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </device>
 </devices>
 </deviceset>
+<deviceset name="PUSHBUTTON_" prefix="SW">
+<description>Pushbutton with 2 pins shorting 1 to 2 and two extra mounting pins 3 &amp; 4</description>
+<gates>
+<gate name="G$1" symbol="RESOLVED-PUSHBUTTON-2PIN-NO-SHIELD_" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD-VERTICAL-1" package="TE_FSM8JSMA_HS">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST" value="Digikey"/>
+<attribute name="DISTPN" value="450-1129-ND"/>
+<attribute name="MFR" value="TE Connectivity Alcoswitch Switches"/>
+<attribute name="MPN" value="FSM4JSMA"/>
+</technology>
+</technologies>
+</device>
+<device name="SMD-VERTICAL" package="TE_FSM8JSMA_HS">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DATA_SHEET" value="" constant="no"/>
+<attribute name="DB" value="" constant="no"/>
+<attribute name="DEVICE" value="" constant="no"/>
+<attribute name="DIST" value="" constant="no"/>
+<attribute name="DISTPN" value="" constant="no"/>
+<attribute name="HEIGHT" value="" constant="no"/>
+<attribute name="IMAGE" value="" constant="no"/>
+<attribute name="MFR" value="" constant="no"/>
+<attribute name="MIN_QTY" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="ORIENTATION" value="" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="PRICE" value="" constant="no"/>
+<attribute name="SIZE" value="" constant="no"/>
+<attribute name="STOCK" value="" constant="no"/>
+<attribute name="WIDTH" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="quadparts">
 <packages>
 <package name="N-CHANNEL_MOSFET">
-<smd name="SOURCE" x="0" y="0" dx="0.724" dy="0.559" layer="1"/>
-<smd name="GATE" x="0" y="1.9" dx="0.724" dy="0.559" layer="1"/>
-<smd name="DRAIN" x="1.969" y="0.95" dx="0.724" dy="2.5" layer="1"/>
-<text x="2.6" y="0.55" size="0.88" layer="25" font="vector">&gt;NAME</text>
-<wire x1="-0.55" y1="2.45" x2="2.5" y2="2.45" width="0.05" layer="39"/>
-<wire x1="2.5" y1="2.45" x2="2.5" y2="-0.5" width="0.05" layer="39"/>
-<wire x1="2.5" y1="-0.5" x2="-0.55" y2="-0.5" width="0.05" layer="39"/>
-<wire x1="-0.55" y1="-0.5" x2="-0.55" y2="2.45" width="0.05" layer="39"/>
-<text x="0.55" y="1.5" size="0.88" layer="21" font="vector">G</text>
-<text x="0.8" y="0.5" size="0.88" layer="21" font="vector">D</text>
-<text x="0.55" y="-0.45" size="0.88" layer="21" font="vector">S</text>
+<smd name="SOURCE" x="0" y="0" dx="1.5" dy="1" layer="1"/>
+<smd name="GATE" x="0" y="1.9" dx="1.5" dy="1" layer="1"/>
+<smd name="DRAIN" x="2.025" y="0.95" dx="2.05" dy="2.9" layer="1"/>
+<text x="3.44" y="-0.52" size="0.88" layer="25" font="vector">&gt;NAME</text>
+<wire x1="-0.98" y1="2.58" x2="3.24" y2="2.59" width="0.05" layer="39"/>
+<wire x1="3.24" y1="2.59" x2="3.24" y2="-0.75" width="0.05" layer="39"/>
+<wire x1="3.24" y1="-0.75" x2="-0.98" y2="-0.76" width="0.05" layer="39"/>
+<wire x1="-0.98" y1="-0.76" x2="-0.98" y2="2.58" width="0.05" layer="39"/>
+<text x="-1.62" y="1.41" size="0.88" layer="21" font="vector">G</text>
+<text x="3.34" y="1.57" size="0.88" layer="21" font="vector">D</text>
+<text x="-1.67" y="-0.42" size="0.88" layer="21" font="vector">S</text>
 </package>
 <package name="MALE_HEADER_2X1_0.1IN">
 <description>Header, Vertical,2.54 mm pitch;0.635 mm lead width,2 pins,1 row,2 pins per row,5.08 mm L X 2.54 mm W X 8.38 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
@@ -3993,6 +4152,7 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <part name="J2" library="quadparts" deviceset="MALE_HEADER_2POS" device="-2X1-0.1IN"/>
 <part name="R14" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-10K" value="10K"/>
 <part name="R15" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-10K" value="10K"/>
+<part name="SW1" library="quadparts_prebuilt" deviceset="PUSHBUTTON_" device="SMD-VERTICAL-1"/>
 </parts>
 <sheets>
 <sheet>
@@ -4152,11 +4312,12 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <instance part="J2" gate="G$1" x="-68.58" y="40.64" rot="R270"/>
 <instance part="R14" gate="G$1" x="-78.74" y="106.68" rot="R90"/>
 <instance part="R15" gate="G$1" x="-96.52" y="99.06" rot="R90"/>
+<instance part="SW1" gate="G$1" x="12.7" y="-55.88" rot="R270"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="2">
+<net name="GND" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="CLKI"/>
 <pinref part="GND21" gate="1" pin="GND"/>
@@ -4418,6 +4579,11 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <wire x1="20.32" y1="-83.82" x2="20.32" y2="-86.36" width="0.1524" layer="91"/>
 <label x="20.32" y="-86.36" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SW1" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="-60.96" x2="10.16" y2="-63.5" width="0.1524" layer="91"/>
+<label x="10.16" y="-63.5" size="1.016" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="FILTERED_1" class="2">
 <segment>
@@ -4512,9 +4678,14 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="-76.2" x2="-2.54" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-76.2" x2="-2.54" y2="-73.66" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="-76.2" x2="0" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="-2.54" y="-76.2"/>
-<label x="0" y="-76.2" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<label x="22.86" y="-50.8" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<wire x1="-2.54" y1="-76.2" x2="2.54" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-76.2" x2="2.54" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-50.8" x2="10.16" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="-50.8" x2="22.86" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="10.16" y="-50.8"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="5"/>
@@ -4651,7 +4822,7 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <label x="-73.66" y="-129.54" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
-<net name="PE5" class="2">
+<net name="PE5" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PE5(OC3C/INT5)"/>
 <wire x1="-71.12" y1="-127" x2="-73.66" y2="-127" width="0.1524" layer="91"/>
@@ -4668,7 +4839,7 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <label x="55.88" y="99.06" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PE4" class="2">
+<net name="PE4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PE4(OC3B/INT4)"/>
 <wire x1="-71.12" y1="-124.46" x2="-73.66" y2="-124.46" width="0.1524" layer="91"/>
@@ -4685,7 +4856,7 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <label x="55.88" y="96.52" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PE3" class="2">
+<net name="PE3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PE3(OC3A/AIN1)"/>
 <wire x1="-71.12" y1="-121.92" x2="-73.66" y2="-121.92" width="0.1524" layer="91"/>
@@ -4829,7 +5000,7 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <label x="-96.52" y="-109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="PB5" class="2">
+<net name="PB5" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB5(OC1A/PCINT5)"/>
 <wire x1="-71.12" y1="-81.28" x2="-73.66" y2="-81.28" width="0.1524" layer="91"/>
@@ -5324,7 +5495,7 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <junction x="114.3" y="-142.24"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="N$7" class="2">
 <segment>
 <pinref part="BATT1" gate="G$1" pin="P"/>
 <wire x1="-68.58" y1="25.4" x2="-66.04" y2="25.4" width="0.1524" layer="91"/>
