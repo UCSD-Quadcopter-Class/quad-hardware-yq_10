@@ -1,0 +1,47 @@
+1. you've got a bunch of traces in BAT_GND on the top metal. 
+
+2. GND should not be high_current net.  BAT_GND should be, though.
+
+  Action: Change the net class of both GND and BAT_GND.
+
+3. You need separate pours for GND and BAT_GND.  Just like you have separate pours for VCC and VBAT
+
+  Action for 1 and 3: Draw BAT_GND at layer 15 right underneath VBAT.
+
+4. C15 and C17 should be close to the balun and the wire to antenna.
+
+  Action: Move both cap closer.
+
+5. The trace from your jumuper to the positive batter terminal needs to be high_curren
+
+  Action: Change the net class in the property.
+
+6. your oscillator layout needs to be much closer to the microcontroller and match what's on the red board more closely.
+
+7. More of your motor controller sould be laid out over the VBAT pour,  
+
+  Action: Increase the size of VBAT and move components slightly.
+
+8. The decoupling caps for the microcontroller are pretty far from the imu and microcontroller.
+
+  Action for 6 and 8: Check the board layout of the redboard and move components accordingly.
+
+9. your arms a little short.  some of your propellers are going tobe over your board.
+
+  Action: Increase the length of arm by 7mm.
+
+10. You have no reset button.
+
+  Action: Check the schematic of the red board and use the button in the prebuilt library to be the reset button.
+
+11. The package for your mosfet doesn't have large enough pads.  Check page 6 of the datasheet.
+
+  Action: Edit the package and replace the part in the schematic with the new device in the library.
+
+12. Be sure to get the new .dru and .cam files and reroute your board.
+
+  Action: Download the new file from github.
+
+13. the PWM lines do not need to be highcurrent.
+
+  Action: Change the net class in the property.
