@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.1">
+<eagle version="8.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4364,7 +4364,7 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <pinref part="IMU1" gate="G$1" pin="RES@1"/>
 <wire x1="-2.54" y1="83.82" x2="2.54" y2="83.82" width="0.1524" layer="91"/>
 <junction x="2.54" y="83.82"/>
-<label x="2.54" y="78.74" size="1.778" layer="95" rot="R270"/>
+<label x="2.54" y="78.74" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C20" gate="G$1" pin="2"/>
