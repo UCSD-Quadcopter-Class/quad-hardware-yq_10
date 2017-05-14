@@ -4088,7 +4088,7 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <part name="M2" library="quadparts_prebuilt" deviceset="MOTOR_PADS" device=""/>
 <part name="R3" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-100" value="100"/>
 <part name="R4" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-10K" value="10K"/>
-<part name="C7" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_100UF" device="SMD-7043-D_TANTALUM-220UF" value="100uF"/>
+<part name="C7" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_100UF" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
 <part name="C8" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-0.1UF" value="0.1uF"/>
 <part name="D2" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123-360MV" value="360mV"/>
 <part name="U1" library="quadparts_prebuilt" deviceset="ATMEGA128RFA1" device=""/>
@@ -4129,21 +4129,21 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <part name="M1" library="quadparts_prebuilt" deviceset="MOTOR_PADS" device=""/>
 <part name="R1" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-100" value="100"/>
 <part name="R2" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-10K" value="10K"/>
-<part name="C1" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_100UF" device="SMD-7043-D_TANTALUM-220UF" value="100uF"/>
+<part name="C1" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_100UF" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
 <part name="C2" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-0.1UF" value="0.1uF"/>
 <part name="D1" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123-360MV" value="360mV"/>
 <part name="MOFSET2" library="quadparts" deviceset="SI2302CDS_N_MOFSET" device="SI2302CDS"/>
 <part name="M3" library="quadparts_prebuilt" deviceset="MOTOR_PADS" device=""/>
 <part name="R5" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-100" value="100"/>
 <part name="R6" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-10K" value="10K"/>
-<part name="C3" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_100UF" device="SMD-7043-D_TANTALUM-220UF" value="100uF"/>
+<part name="C3" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_100UF" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
 <part name="C4" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-0.1UF" value="0.1uF"/>
 <part name="D3" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123-360MV" value="360mV"/>
 <part name="MOFSET3" library="quadparts" deviceset="SI2302CDS_N_MOFSET" device="SI2302CDS"/>
 <part name="M4" library="quadparts_prebuilt" deviceset="MOTOR_PADS" device=""/>
 <part name="R7" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-100" value="100"/>
 <part name="R8" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-10K" value="10K"/>
-<part name="C5" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_100UF" device="SMD-7043-D_TANTALUM-220UF" value="100uF"/>
+<part name="C5" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_100UF" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
 <part name="C6" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-0.1UF" value="0.1uF"/>
 <part name="D4" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123-360MV" value="360mV"/>
 <part name="MOFSET4" library="quadparts" deviceset="SI2302CDS_N_MOFSET" device="SI2302CDS"/>
@@ -4392,13 +4392,8 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <wire x1="96.52" y1="63.5" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="66.04" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="66.04" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="66.04" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="68.326" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
-<junction x="121.92" y="66.04"/>
-<pinref part="MOFSET1" gate="G$1" pin="S"/>
-<wire x1="134.62" y1="78.74" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
 <label x="96.52" y="63.5" size="1.016" layer="95" rot="R270" xref="yes"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="68.58" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
@@ -4408,13 +4403,8 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <wire x1="96.52" y1="-157.48" x2="96.52" y2="-154.94" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="-154.94" x2="114.3" y2="-154.94" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="-154.94" x2="121.92" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="-154.94" x2="129.54" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="-154.94" x2="129.54" y2="-142.24" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="-152.654" x2="121.92" y2="-154.94" width="0.1524" layer="91"/>
-<junction x="121.92" y="-154.94"/>
-<pinref part="MOFSET4" gate="G$1" pin="S"/>
-<wire x1="134.62" y1="-142.24" x2="129.54" y2="-142.24" width="0.1524" layer="91"/>
 <label x="96.52" y="-157.48" size="1.016" layer="95" rot="R270" xref="yes"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="-152.4" x2="114.3" y2="-154.94" width="0.1524" layer="91"/>
@@ -4424,13 +4414,8 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <wire x1="96.52" y1="-83.82" x2="96.52" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="-81.28" x2="114.3" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="-81.28" x2="121.92" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="-81.28" x2="129.54" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="-81.28" x2="129.54" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="-78.994" x2="121.92" y2="-81.28" width="0.1524" layer="91"/>
-<junction x="121.92" y="-81.28"/>
-<pinref part="MOFSET3" gate="G$1" pin="S"/>
-<wire x1="134.62" y1="-68.58" x2="129.54" y2="-68.58" width="0.1524" layer="91"/>
 <label x="96.52" y="-83.82" size="1.016" layer="95" rot="R270" xref="yes"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="-78.74" x2="114.3" y2="-81.28" width="0.1524" layer="91"/>
@@ -4440,13 +4425,8 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <wire x1="96.52" y1="-10.16" x2="96.52" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="-7.62" x2="114.3" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="-7.62" x2="121.92" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="-7.62" x2="129.54" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="-7.62" x2="129.54" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="-5.334" x2="121.92" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="121.92" y="-7.62"/>
-<pinref part="MOFSET2" gate="G$1" pin="S"/>
-<wire x1="134.62" y1="5.08" x2="129.54" y2="5.08" width="0.1524" layer="91"/>
 <label x="96.52" y="-10.16" size="1.016" layer="95" rot="R270" xref="yes"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="-5.08" x2="114.3" y2="-7.62" width="0.1524" layer="91"/>
@@ -5358,6 +5338,26 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="-53.34" y1="12.7" x2="-53.34" y2="10.16" width="0.1524" layer="91"/>
 <label x="-53.34" y="10.16" size="1.016" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MOFSET1" gate="G$1" pin="S"/>
+<wire x1="134.62" y1="78.74" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
+<label x="134.62" y="71.12" size="1.016" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MOFSET2" gate="G$1" pin="S"/>
+<wire x1="134.62" y1="5.08" x2="134.62" y2="-2.54" width="0.1524" layer="91"/>
+<label x="134.62" y="-2.54" size="1.016" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MOFSET3" gate="G$1" pin="S"/>
+<wire x1="134.62" y1="-68.58" x2="134.62" y2="-76.2" width="0.1524" layer="91"/>
+<label x="134.62" y="-76.2" size="1.016" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MOFSET4" gate="G$1" pin="S"/>
+<wire x1="134.62" y1="-142.24" x2="134.62" y2="-149.86" width="0.1524" layer="91"/>
+<label x="134.62" y="-149.86" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
