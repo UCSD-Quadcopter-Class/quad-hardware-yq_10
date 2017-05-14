@@ -14,4 +14,4 @@ Flyback and Filtered are connecte across all your motor drivers.
 
 filter cap in motor drivers should be 0.1uF instead of 1uF
 
-
+THe decoupling caps on your motor drivers are labeled as 100uF but the parts are actually 220. 
