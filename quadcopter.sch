@@ -3089,7 +3089,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAPACITOR-POL_100UF" prefix="C" uservalue="yes">
+<deviceset name="CAPACITOR-POL_" prefix="C" uservalue="yes">
 <description>Polarized capacitor</description>
 <gates>
 <gate name="G$1" symbol="RESOLVED-CAPACITOR-POL_" x="0" y="0"/>
@@ -3102,13 +3102,11 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="PROF"/>
 <attribute name="DIST" value="Digikey"/>
 <attribute name="DISTPN" value="478-8912-1-ND"/>
 <attribute name="MFR" value="AVX Corporation"/>
 <attribute name="MPN" value="TAJD227K006RNJ"/>
-<attribute name="REVIEWER" value=""/>
-<attribute name="VALUE" value="100uF"/>
+<attribute name="VALUE" value="220uF"/>
 </technology>
 </technologies>
 </device>
@@ -4088,7 +4086,7 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <part name="M2" library="quadparts_prebuilt" deviceset="MOTOR_PADS" device=""/>
 <part name="R3" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-100" value="100"/>
 <part name="R4" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-10K" value="10K"/>
-<part name="C7" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_100UF" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
+<part name="C7" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
 <part name="C8" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-0.1UF" value="0.1uF"/>
 <part name="D2" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123-360MV" value="360mV"/>
 <part name="U1" library="quadparts_prebuilt" deviceset="ATMEGA128RFA1" device=""/>
@@ -4129,21 +4127,21 @@ Features: 1. TrenchFET Power MOSFET. 2. Material categorization: For definitions
 <part name="M1" library="quadparts_prebuilt" deviceset="MOTOR_PADS" device=""/>
 <part name="R1" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-100" value="100"/>
 <part name="R2" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-10K" value="10K"/>
-<part name="C1" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_100UF" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
+<part name="C1" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
 <part name="C2" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-0.1UF" value="0.1uF"/>
 <part name="D1" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123-360MV" value="360mV"/>
 <part name="MOFSET2" library="quadparts" deviceset="SI2302CDS_N_MOFSET" device="SI2302CDS"/>
 <part name="M3" library="quadparts_prebuilt" deviceset="MOTOR_PADS" device=""/>
 <part name="R5" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-100" value="100"/>
 <part name="R6" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-10K" value="10K"/>
-<part name="C3" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_100UF" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
+<part name="C3" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
 <part name="C4" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-0.1UF" value="0.1uF"/>
 <part name="D3" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123-360MV" value="360mV"/>
 <part name="MOFSET3" library="quadparts" deviceset="SI2302CDS_N_MOFSET" device="SI2302CDS"/>
 <part name="M4" library="quadparts_prebuilt" deviceset="MOTOR_PADS" device=""/>
 <part name="R7" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-100" value="100"/>
 <part name="R8" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-10K" value="10K"/>
-<part name="C5" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_100UF" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
+<part name="C5" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
 <part name="C6" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-0.1UF" value="0.1uF"/>
 <part name="D4" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123-360MV" value="360mV"/>
 <part name="MOFSET4" library="quadparts" deviceset="SI2302CDS_N_MOFSET" device="SI2302CDS"/>
